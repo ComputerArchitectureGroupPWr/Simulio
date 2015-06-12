@@ -1,0 +1,8 @@
+#!/usr/bin/python
+import sys, os, site
+
+ver = sys.version[0:3]
+path = site.getsitepackages()[0]
+
+command = 'python%s %s/Simulio/simulio.pyc '%(ver,path)
+os.system(command+' '.join(sys.argv[1:]))

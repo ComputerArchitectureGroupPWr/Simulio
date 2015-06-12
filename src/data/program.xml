@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<program version="0.2">
+    <output name="newdata.csv"/>
+    <settings duration="21s"/>
+	<heater name="heater1">
+		<conf power="0%" time="0s"/>
+		<conf power="100%" time="5s"/>
+        <conf power="0%" time="10s"/>
+        <conf power="100%" time="15s"/>
+        <conf power="0%" time="20s"/>
+	</heater>
+</program>
